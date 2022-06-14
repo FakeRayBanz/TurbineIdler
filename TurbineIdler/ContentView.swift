@@ -6,14 +6,19 @@
 //
 
 import SwiftUI
+import SpriteKit
 
 struct ContentView: View {
     @EnvironmentObject var gameState: GameState
     var body: some View {
-        VStack{
-            Text("Electricity: " + String(gameState.power))
-            Text("Money: " + String(gameState.money))
-            Text("Steam Rate: " + String(gameState.steamRate))
+        ZStack {
+            SpriteView(scene: SteamScene(), options: [.allowsTransparency])
+                .ignoresSafeArea()
+            VStack{
+                Text("Electricity: " + String(gameState.power))
+                Text("Money: " + String(gameState.money))
+                Text("Steam Rate: " + String(gameState.steamRate))
+            }
         }
     }
 }

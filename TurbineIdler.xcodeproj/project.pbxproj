@@ -13,6 +13,7 @@
 		5511A45B2858972700D3978E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5511A45A2858972700D3978E /* Preview Assets.xcassets */; };
 		5511A4622858981300D3978E /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511A4612858981300D3978E /* GameState.swift */; };
 		5511A46628589EFF00D3978E /* SteamParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5511A46528589EFF00D3978E /* SteamParticle.sks */; };
+		5511A46A2858A2CB00D3978E /* SteamScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511A4692858A2CB00D3978E /* SteamScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5511A45A2858972700D3978E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5511A4612858981300D3978E /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		5511A46528589EFF00D3978E /* SteamParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SteamParticle.sks; sourceTree = "<group>"; };
+		5511A4692858A2CB00D3978E /* SteamScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +57,11 @@
 		5511A4522858972700D3978E /* TurbineIdler */ = {
 			isa = PBXGroup;
 			children = (
+				5511A4612858981300D3978E /* GameState.swift */,
 				5511A4532858972700D3978E /* TurbineIdlerApp.swift */,
 				5511A4552858972700D3978E /* ContentView.swift */,
+				5511A4692858A2CB00D3978E /* SteamScene.swift */,
 				5511A46528589EFF00D3978E /* SteamParticle.sks */,
-				5511A4612858981300D3978E /* GameState.swift */,
 				5511A4572858972700D3978E /* Assets.xcassets */,
 				5511A4592858972700D3978E /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				5511A4622858981300D3978E /* GameState.swift in Sources */,
 				5511A4562858972700D3978E /* ContentView.swift in Sources */,
 				5511A4542858972700D3978E /* TurbineIdlerApp.swift in Sources */,
+				5511A46A2858A2CB00D3978E /* SteamScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
