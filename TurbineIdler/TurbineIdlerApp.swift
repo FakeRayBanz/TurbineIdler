@@ -12,6 +12,7 @@ struct TurbineIdlerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(GameState())
         }
     }
 }
